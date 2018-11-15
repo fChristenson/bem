@@ -1,0 +1,3 @@
+@import "./global.css";
+@import "../js/components/alternatingHeader/alternatingHeader.css";
+@import "../js/components/commonHeader/commonHeader.css";

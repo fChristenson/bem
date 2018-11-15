@@ -1,0 +1,24 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "webpack": "npx webpack --watch",
+    "css": "npx postcss ./src/public/css/main.css -o ./dist/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "postcss": "7.0.5",
+    "postcss-cli": "6.0.1",
+    "postcss-import": "12.0.1",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2"
+  }
+}
