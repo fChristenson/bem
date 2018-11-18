@@ -12,12 +12,34 @@
       padding: 8px;
       color: blueviolet;
     }
+
+    .headerDisplay__paragraph {
+      padding-left: 8px;
+      color: white;
+    }
+
+    .commonHeader {
+      padding: 8px;
+    }
+
+    .commonHeader__letter {
+      color: whitesmoke;
+    }
   </style>
 </head>
 
 <body>
   <!-- With BEM you always name the block element something meaningful -->
   <h1 class="blockHeader">foobar</h1>
+  <h1 class="commonHeader">
+    <span class="commonHeader__letter">f</span>
+    <span class="commonHeader__letter">o</span>
+    <span class="commonHeader__letter">o</span>
+  </h1>
+  <div class="headerDisplay">
+    <h1 class="blockHeader">foobar</h1>
+    <p class="headerDisplay__paragraph">I can also compose blocks without making them elements</p>
+  </div>
   <script src="/bundle.js"></script>
 </body>
 

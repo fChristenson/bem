@@ -6,18 +6,6 @@
   color: white;
 }
 
-.alternatingHeader__letter--yellow {
-  color: #F9BB2D;
-}
-
 .alternatingHeader__letter--red {
   color: #EC645B;
-}
-
-.alternatingHeader__letter--green {
-  color: #3AA757;
-}
-
-.alternatingHeader__letter--blue {
-  color: #4688F1;
 }
